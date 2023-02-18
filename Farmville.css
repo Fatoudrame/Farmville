@@ -1,0 +1,65 @@
+h1
+{font-size: 70px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+header
+{
+    width: 100%;
+    height: 300px;
+    background-image:url(backgroundheader.jpg) ;
+    
+}
+body
+{
+    width: 100%;
+    height: 100%;
+    
+}
+nav li
+{   
+    display: inline-block;
+}
+nav ul
+{
+    color: aliceblue;
+    font-size: 40px;
+    position: relative;
+    top: 70px;
+    bottom: Opx;
+    left: 70px;
+    
+}
+section 
+{width: 600px;
+    text-align: justify;
+    display: inline-block;
+    background-color: aliceblue;
+    position: relative
+    ;left: 30%
+}
+aside
+{ 
+    text-align: justify;
+width: 400px;
+    float: left;
+    position:relative 
+    ;
+    bottom: 600px;
+   
+}
+
+footer
+{   width: 100%;
+     color: aliceblue;
+    background-color: black;
+    position: absolute;
+    top: 100%;
+    bottom: 0%;
+    
+}
+p
+{
+    font-size: 200%;
+}

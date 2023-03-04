@@ -1,119 +1,158 @@
-
-#titre
-{padding-top: 70px;
+#titre {
+    padding-top: 70px;
     font-size: 100px;
     margin: 0;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: aliceblue;
 }
-header
-{
-    background-image:url(backgroundheader.jpg) ;
+
+header {
+    background-image: url(backgroundheader.jpg);
     width: auto;
     height: 300px;
-    
+
 }
-body
-{
+
+body {
     padding: 0;
     margin: 0;
     background-color: brown;
-    
+
 }
-nav li
-{   
+
+
+nav li {
     display: inline-block;
+
+
 }
-nav ul
-{
+
+nav ul {
     color: aliceblue;
     font-size: 40px;
-    
-    
+
+
 }
-section 
-{width: 700px;
+
+section {
+    width: 700px;
     height: 1100px;
     padding: 40px;
-    text-align: justify;
-    display: inline-block;
+margin: 15px;
+
     background-color: aliceblue;
-    position: absolute;
-    top: 60%;
-    left:30% ;
+
+
     border: 2px solid black;
 }
-aside
-{ position:absolute;
-    top:60%;
-    right: 53%;
 
-    padding: 0px 200px;
-text-align: justify;
-width: 300px;
-height: 1500px;
-color: aliceblue;  
+aside {
+    width: 700;
+    border: 5px solid maroon;
+    background-color: aliceblue;
+    margin: 15px;
+    padding: 10px;
+}
+
+.bio {
+
+}
+
+.contener {
+    width: auto;
+    display: flex;
+    align-items: start;
+}
+
+.element {
+    align-self: auto;
+
+}
+
+#element1 {
+    order: 2;
+}
+
+#element2 {
+    order: 1;
 }
 
 
-footer
-{   width: 100%;
-     color: aliceblue;
+
+
+
+
+
+
+footer {
+    width: 100%;
+    color: aliceblue;
     background-color: black;
-    position:absolute;
+    position: absolute;
     bottom: 0%;
     top: 100%;
 
-    
-    
+
+
 }
-p
-{
+
+p {
     font-size: 200%;
 }
-a:hover
-{
+
+a:hover {
     text-decoration: underline;
     color: green;
     font-weight: bolder;
 }
-a{
+
+a {
     text-decoration: none;
     color: maroon;
     font-weight: lighter;
 
 }
-.paside
-{
-    font-size:large ;
+
+.paside {
+    font-size: large;
 }
 
-i.fa-facebook
-{
+i.fa-facebook {
     padding: 16px;
     font-size: 3em;
     color: blue;
     background-color: aliceblue;
 }
-i.fa-linkedin
-{
+
+i.fa-linkedin {
     padding: 16px;
     font-size: 3em;
     color: blue;
     background-color: aliceblue;
 
 }
-i.fa-twitter
-{
+
+i.fa-twitter {
     padding: 16px;
     font-size: 3em;
     color: aqua;
 }
-i.fa-location-dot
-{
+
+i.fa-location-dot {
     padding: 16px;
     font-size: 3em;
     color: red;
     background-color: aliceblue;
+}
+.borderbottom
+{
+    
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.radiusbutton
+{
+    border-radius: 20%;
 }
